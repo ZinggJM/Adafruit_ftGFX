@@ -81,11 +81,11 @@ extern const fontProperties Open_Sans_Bold_16ptProperties;
 extern const unsigned char Open_Sans_Bold_16ptBitmaps[];
 extern const FontDescriptor Open_Sans_Bold_16ptDescriptors2[];
 
-#include "./Fonts/Open_Sans_Bold_18pt.h"
-#define OPENSANSBOLD_18 5
-extern const fontProperties Open_Sans_Bold_18ptProperties;
-extern const unsigned char Open_Sans_Bold_18ptBitmaps[];
-extern const FontDescriptor Open_Sans_Bold_18ptDescriptors2[];
+//#include "./Fonts/Open_Sans_Bold_18pt.h"
+//#define OPENSANSBOLD_18 5
+//extern const fontProperties Open_Sans_Bold_18ptProperties;
+//extern const unsigned char Open_Sans_Bold_18ptBitmaps[];
+//extern const FontDescriptor Open_Sans_Bold_18ptDescriptors2[];
 
 #include "./Fonts/Open_Sans_Bold_20pt.h"
 #define OPENSANSBOLD_20 6

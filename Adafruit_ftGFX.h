@@ -1,5 +1,5 @@
-#ifndef _ADAFRUIT_GFX_H
-#define _ADAFRUIT_GFX_H
+#ifndef _ADAFRUIT_TF_GFX_H_
+#define _ADAFRUIT_TF_GFX_H_
 
 #if ARDUINO >= 100
  #include "Arduino.h"
@@ -12,13 +12,11 @@
 #include "fonts.h"
 #endif
 
-#define swap(a, b) { int16_t t = a; a = b; b = t; }
-
-class Adafruit_GFX : public Print {
+class Adafruit_tfGFX : public Print {
 
  public:
 
-  Adafruit_GFX(int16_t w, int16_t h); // Constructor
+  Adafruit_tfGFX(int16_t w, int16_t h); // Constructor
 
   // This MUST be defined by the subclass:
   virtual void drawPixel(int16_t x, int16_t y, uint16_t color) = 0;
@@ -35,7 +33,7 @@ class Adafruit_GFX : public Print {
     invertDisplay(boolean i),
     drawFastChar(int16_t x, int16_t y, unsigned char c, uint16_t color, uint16_t bg, uint8_t size);
 
-  // These exist only with Adafruit_GFX (no subclass overrides)
+  // These exist only with Adafruit_tfGFX (no subclass overrides)
   void
     drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color),
     drawCircleHelper(int16_t x0, int16_t y0, int16_t r, uint8_t cornername,
@@ -102,4 +100,4 @@ class Adafruit_GFX : public Print {
   boolean wrap; // If set, 'wrap' text at right edge of display
 };
 
-#endif // _ADAFRUIT_GFX_H
+#endif // _Adafruit_tfGFX_H

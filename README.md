@@ -1,6 +1,8 @@
 Adafruit_ftGFX_Library
 ======================
 
+## This is a modified forked version for use with GxEPD
+
 Enhanced multifont version of the Adafruit_GFX library, created by Peter Jakobs, based on Paul Kourany's 
 work on the Adafruit_mfGFX_Library.
 

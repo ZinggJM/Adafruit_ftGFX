@@ -3,6 +3,11 @@
 
 #include <stdint.h>
 
+#ifdef __AVR__
+  #include <avr/pgmspace.h>
+#elif defined(ESP8266) || defined(ESP32)
+  #include <pgmspace.h>
+#endif
 
 #define FF_SERIF          ( 1L <<  0 )
 #define FF_SANS           ( 1L <<  1 )
