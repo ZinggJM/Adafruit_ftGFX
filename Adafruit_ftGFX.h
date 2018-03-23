@@ -12,11 +12,11 @@
 #include "fonts.h"
 #endif
 
-class Adafruit_tfGFX : public Print {
+class Adafruit_ftGFX : public Print {
 
  public:
 
-  Adafruit_tfGFX(int16_t w, int16_t h); // Constructor
+  Adafruit_ftGFX(int16_t w, int16_t h); // Constructor
 
   // This MUST be defined by the subclass:
   virtual void drawPixel(int16_t x, int16_t y, uint16_t color) = 0;
@@ -33,7 +33,7 @@ class Adafruit_tfGFX : public Print {
     invertDisplay(boolean i),
     drawFastChar(int16_t x, int16_t y, unsigned char c, uint16_t color, uint16_t bg, uint8_t size);
 
-  // These exist only with Adafruit_tfGFX (no subclass overrides)
+  // These exist only with Adafruit_ftGFX (no subclass overrides)
   void
     drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color),
     drawCircleHelper(int16_t x0, int16_t y0, int16_t r, uint8_t cornername,
@@ -100,4 +100,4 @@ class Adafruit_tfGFX : public Print {
   boolean wrap; // If set, 'wrap' text at right edge of display
 };
 
-#endif // _Adafruit_tfGFX_H
+#endif // _Adafruit_ftGFX_H

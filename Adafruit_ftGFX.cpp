@@ -49,7 +49,7 @@
 #define _swap_int16_t(a, b) { int16_t t = a; a = b; b = t; }
 #endif
 
-Adafruit_tfGFX::Adafruit_tfGFX(int16_t w, int16_t h):
+Adafruit_ftGFX::Adafruit_ftGFX(int16_t w, int16_t h):
   WIDTH(w), HEIGHT(h)
 {
   _width    = WIDTH;
@@ -62,7 +62,7 @@ Adafruit_tfGFX::Adafruit_tfGFX(int16_t w, int16_t h):
   setFont(OPENSANSBOLD_12);
 }
 
-void Adafruit_tfGFX::setFont(uint8_t f) {
+void Adafruit_ftGFX::setFont(uint8_t f) {
   font = f;
   switch (font) {
 
@@ -171,7 +171,7 @@ void Adafruit_tfGFX::setFont(uint8_t f) {
 }
 
 // Draw a circle outline
-void Adafruit_tfGFX::drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color) {
+void Adafruit_ftGFX::drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color) {
   int16_t f = 1 - r;
   int16_t ddF_x = 1;
   int16_t ddF_y = -2 * r;
@@ -204,7 +204,7 @@ void Adafruit_tfGFX::drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t colo
   }
 }
 
-void Adafruit_tfGFX::drawCircleHelper( int16_t x0, int16_t y0,
+void Adafruit_ftGFX::drawCircleHelper( int16_t x0, int16_t y0,
                                        int16_t r, uint8_t cornername, uint16_t color) {
   int16_t f     = 1 - r;
   int16_t ddF_x = 1;
@@ -240,14 +240,14 @@ void Adafruit_tfGFX::drawCircleHelper( int16_t x0, int16_t y0,
   }
 }
 
-void Adafruit_tfGFX::fillCircle(int16_t x0, int16_t y0, int16_t r,
+void Adafruit_ftGFX::fillCircle(int16_t x0, int16_t y0, int16_t r,
                                 uint16_t color) {
   drawFastVLine(x0, y0 - r, 2 * r + 1, color);
   fillCircleHelper(x0, y0, r, 3, 0, color);
 }
 
 // Used to do circles and roundrects
-void Adafruit_tfGFX::fillCircleHelper(int16_t x0, int16_t y0, int16_t r,
+void Adafruit_ftGFX::fillCircleHelper(int16_t x0, int16_t y0, int16_t r,
                                       uint8_t cornername, int16_t delta, uint16_t color) {
 
   int16_t f     = 1 - r;
@@ -278,7 +278,7 @@ void Adafruit_tfGFX::fillCircleHelper(int16_t x0, int16_t y0, int16_t r,
 }
 
 // Bresenham's algorithm - thx wikpedia
-void Adafruit_tfGFX::drawLine(int16_t x0, int16_t y0,
+void Adafruit_ftGFX::drawLine(int16_t x0, int16_t y0,
                               int16_t x1, int16_t y1,
                               uint16_t color) {
   int16_t steep = abs(y1 - y0) > abs(x1 - x0);
@@ -320,7 +320,7 @@ void Adafruit_tfGFX::drawLine(int16_t x0, int16_t y0,
 }
 
 // Draw a rectangle
-void Adafruit_tfGFX::drawRect(int16_t x, int16_t y,
+void Adafruit_ftGFX::drawRect(int16_t x, int16_t y,
                               int16_t w, int16_t h,
                               uint16_t color) {
   drawFastHLine(x, y, w, color);
@@ -329,19 +329,19 @@ void Adafruit_tfGFX::drawRect(int16_t x, int16_t y,
   drawFastVLine(x + w - 1, y, h, color);
 }
 
-void Adafruit_tfGFX::drawFastVLine(int16_t x, int16_t y,
+void Adafruit_ftGFX::drawFastVLine(int16_t x, int16_t y,
                                    int16_t h, uint16_t color) {
   // Update in subclasses if desired!
   drawLine(x, y, x, y + h - 1, color);
 }
 
-void Adafruit_tfGFX::drawFastHLine(int16_t x, int16_t y,
+void Adafruit_ftGFX::drawFastHLine(int16_t x, int16_t y,
                                    int16_t w, uint16_t color) {
   // Update in subclasses if desired!
   drawLine(x, y, x + w - 1, y, color);
 }
 
-void Adafruit_tfGFX::fillRect(int16_t x, int16_t y, int16_t w, int16_t h,
+void Adafruit_ftGFX::fillRect(int16_t x, int16_t y, int16_t w, int16_t h,
                               uint16_t color) {
   // Update in subclasses if desired!
   for (int16_t i = x; i < x + w; i++) {
@@ -349,12 +349,12 @@ void Adafruit_tfGFX::fillRect(int16_t x, int16_t y, int16_t w, int16_t h,
   }
 }
 
-void Adafruit_tfGFX::fillScreen(uint16_t color) {
+void Adafruit_ftGFX::fillScreen(uint16_t color) {
   fillRect(0, 0, _width, _height, color);
 }
 
 // Draw a rounded rectangle
-void Adafruit_tfGFX::drawRoundRect(int16_t x, int16_t y, int16_t w,
+void Adafruit_ftGFX::drawRoundRect(int16_t x, int16_t y, int16_t w,
                                    int16_t h, int16_t r, uint16_t color) {
   // smarter version
   drawFastHLine(x + r  , y    , w - 2 * r, color); // Top
@@ -369,7 +369,7 @@ void Adafruit_tfGFX::drawRoundRect(int16_t x, int16_t y, int16_t w,
 }
 
 // Fill a rounded rectangle
-void Adafruit_tfGFX::fillRoundRect(int16_t x, int16_t y, int16_t w,
+void Adafruit_ftGFX::fillRoundRect(int16_t x, int16_t y, int16_t w,
                                    int16_t h, int16_t r, uint16_t color) {
   // smarter version
   fillRect(x + r, y, w - 2 * r, h, color);
@@ -380,7 +380,7 @@ void Adafruit_tfGFX::fillRoundRect(int16_t x, int16_t y, int16_t w,
 }
 
 // Draw a triangle
-void Adafruit_tfGFX::drawTriangle(int16_t x0, int16_t y0,
+void Adafruit_ftGFX::drawTriangle(int16_t x0, int16_t y0,
                                   int16_t x1, int16_t y1,
                                   int16_t x2, int16_t y2, uint16_t color) {
   drawLine(x0, y0, x1, y1, color);
@@ -389,7 +389,7 @@ void Adafruit_tfGFX::drawTriangle(int16_t x0, int16_t y0,
 }
 
 // Fill a triangle
-void Adafruit_tfGFX::fillTriangle ( int16_t x0, int16_t y0,
+void Adafruit_ftGFX::fillTriangle ( int16_t x0, int16_t y0,
                                     int16_t x1, int16_t y1,
                                     int16_t x2, int16_t y2, uint16_t color) {
 
@@ -466,7 +466,7 @@ void Adafruit_tfGFX::fillTriangle ( int16_t x0, int16_t y0,
   }
 }
 
-void Adafruit_tfGFX::drawBitmap(int16_t x, int16_t y,
+void Adafruit_ftGFX::drawBitmap(int16_t x, int16_t y,
                                 const uint8_t *bitmap, int16_t w, int16_t h,
                                 uint16_t color) {
 
@@ -481,7 +481,7 @@ void Adafruit_tfGFX::drawBitmap(int16_t x, int16_t y,
   }
 }
 
-uint16_t Adafruit_tfGFX::getStringWidth(String s) {
+uint16_t Adafruit_ftGFX::getStringWidth(String s) {
   uint8_t i = 0;
   uint16_t w = 0;
   //uint8_t c=s[0];
@@ -491,11 +491,11 @@ uint16_t Adafruit_tfGFX::getStringWidth(String s) {
   return w;
 }
 
-uint8_t Adafruit_tfGFX::getCharHeight() {
+uint8_t Adafruit_ftGFX::getCharHeight() {
   return (fontProp->height);
 }
 
-size_t Adafruit_tfGFX::write(uint8_t c)
+size_t Adafruit_ftGFX::write(uint8_t c)
 {
 
   if (c == 0x0a || c == 0x0c)
@@ -521,7 +521,7 @@ size_t Adafruit_tfGFX::write(uint8_t c)
   return 1;
 }
 
-void Adafruit_tfGFX::drawFastChar(int16_t x, int16_t y, unsigned char c, uint16_t color, uint16_t bg, uint8_t size)
+void Adafruit_ftGFX::drawFastChar(int16_t x, int16_t y, unsigned char c, uint16_t color, uint16_t bg, uint8_t size)
 {
   // Update in subclasses if desired!
   drawChar(x, y, c, color, bg, size);
@@ -595,7 +595,7 @@ void Adafruit_tfGFX::drawFastChar(int16_t x, int16_t y, unsigned char c, uint16_
 
 
 // Draw a character
-void Adafruit_tfGFX::drawChar(int16_t x, int16_t y, unsigned char c, uint16_t color, uint16_t bg, uint8_t size)
+void Adafruit_ftGFX::drawChar(int16_t x, int16_t y, unsigned char c, uint16_t color, uint16_t bg, uint8_t size)
 {
   if (c < 0x20 || pgm_read_word(&fontDesc[c - 0x20].unicode) == 0x0000)
   { // skip if below 0x40 or non unicode encoded
@@ -653,36 +653,36 @@ void Adafruit_tfGFX::drawChar(int16_t x, int16_t y, unsigned char c, uint16_t co
   }
 }
 
-void Adafruit_tfGFX::setCursor(int16_t x, int16_t y)
+void Adafruit_ftGFX::setCursor(int16_t x, int16_t y)
 {
   cursor_x = x;
   cursor_y = y;
 }
 
-void Adafruit_tfGFX::setTextSize(uint8_t s) {
+void Adafruit_ftGFX::setTextSize(uint8_t s) {
   textsize = (s > 0) ? s : 1;
 }
 
-void Adafruit_tfGFX::setTextColor(uint16_t c) {
+void Adafruit_ftGFX::setTextColor(uint16_t c) {
   // For 'transparent' background, we'll set the bg
   // to the same as fg instead of using a flag
   textcolor = textbgcolor = c;
 }
 
-void Adafruit_tfGFX::setTextColor(uint16_t c, uint16_t b) {
+void Adafruit_ftGFX::setTextColor(uint16_t c, uint16_t b) {
   textcolor   = c;
   textbgcolor = b;
 }
 
-void Adafruit_tfGFX::setTextWrap(boolean w) {
+void Adafruit_ftGFX::setTextWrap(boolean w) {
   wrap = w;
 }
 
-uint8_t Adafruit_tfGFX::getRotation(void) {
+uint8_t Adafruit_ftGFX::getRotation(void) {
   return rotation;
 }
 
-void Adafruit_tfGFX::setRotation(uint8_t x) {
+void Adafruit_ftGFX::setRotation(uint8_t x) {
   rotation = (x & 3);
   switch (rotation) {
     case 0:
@@ -699,14 +699,14 @@ void Adafruit_tfGFX::setRotation(uint8_t x) {
 }
 
 // Return the size of the display (per current rotation)
-int16_t Adafruit_tfGFX::width(void) {
+int16_t Adafruit_ftGFX::width(void) {
   return _width;
 }
 
-int16_t Adafruit_tfGFX::height(void) {
+int16_t Adafruit_ftGFX::height(void) {
   return _height;
 }
 
-void Adafruit_tfGFX::invertDisplay(boolean i) {
+void Adafruit_ftGFX::invertDisplay(boolean i) {
   // Do nothing, must be subclassed if supported
 }
