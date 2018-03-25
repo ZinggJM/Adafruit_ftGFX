@@ -1,3 +1,6 @@
+#ifndef _Open_Sans_Bold_8pt_h_
+#define _Open_Sans_Bold_8pt_h_
+
 const fontProperties Open_Sans_Bold_8ptProperties = {(uint8_t)0x12, (uint8_t)0x0e, (int8_t)0xfffffffc, (int8_t)0xfffffffc, (uint8_t)0x01, (uint16_t)0x0000, "Open_Sans", "Bold"};
 const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
  // Offset: 0x0000 width: 00 (00-00) height: 00 (00-00) xAdvance: 03 yAdvance: 00 
@@ -993,7 +996,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xfc, 
 // 0x7f, U-007f, 
  // Offset: 0x03a6 width: 00 (00-00) height: 00 (00-00) xAdvance: 03 yAdvance: 00 
-// 0xa0, U-00a0,  
+// 0xa0, U-00a0, ï¿½
  // Offset: 0x03a6 width: 04 (04-00) height: 09 (07--2) xAdvance: 04 yAdvance: 00 
 0x60, 
 0x60, 
@@ -1004,7 +1007,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x60, 
 0x60, 
 0x60, 
-// 0xa1, U-00a1, ¡
+// 0xa1, U-00a1, ï¿½
  // Offset: 0x03af width: 07 (07-00) height: 09 (09-00) xAdvance: 07 yAdvance: 00 
 0x18, 
 0x3c, 
@@ -1015,7 +1018,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x7c, 
 0x3c, 
 0x18, 
-// 0xa2, U-00a2, ¢
+// 0xa2, U-00a2, ï¿½
  // Offset: 0x03b8 width: 07 (07-00) height: 09 (09-00) xAdvance: 07 yAdvance: 00 
 0x1c, 
 0x3c, 
@@ -1026,7 +1029,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x60, 
 0x7e, 
 0xfe, 
-// 0xa3, U-00a3, £
+// 0xa3, U-00a3, ï¿½
  // Offset: 0x03c1 width: 07 (07-00) height: 06 (08-02) xAdvance: 07 yAdvance: 00 
 0x44, 
 0x7c, 
@@ -1034,7 +1037,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x64, 
 0x7c, 
 0x44, 
-// 0xa4, U-00a4, ¤
+// 0xa4, U-00a4, ï¿½
  // Offset: 0x03c7 width: 07 (07-00) height: 09 (09-00) xAdvance: 07 yAdvance: 00 
 0xc6, 
 0x6c, 
@@ -1045,7 +1048,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x10, 
 0x7c, 
 0x10, 
-// 0xa5, U-00a5, ¥
+// 0xa5, U-00a5, ï¿½
  // Offset: 0x03d0 width: 03 (05-02) height: 13 (10--3) xAdvance: 07 yAdvance: 00 
 0x40, 
 0x40, 
@@ -1060,7 +1063,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x40, 
 0x40, 
 0x40, 
-// 0xa6, U-00a6, ¦
+// 0xa6, U-00a6, ï¿½
  // Offset: 0x03dd width: 06 (06-00) height: 10 (10-00) xAdvance: 06 yAdvance: 00 
 0x38, 
 0x68, 
@@ -1072,11 +1075,11 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x18, 
 0x08, 
 0x70, 
-// 0xa7, U-00a7, §
+// 0xa7, U-00a7, ï¿½
  // Offset: 0x03e7 width: 06 (07-01) height: 02 (10-08) xAdvance: 08 yAdvance: 00 
 0x48, 
 0x48, 
-// 0xa8, U-00a8, ¨
+// 0xa8, U-00a8, ï¿½
  // Offset: 0x03e9 width: 11 (11-00) height: 09 (09-00) xAdvance: 11 yAdvance: 00 
 0x1f, 0x00, 
 0x20, 0x80, 
@@ -1087,14 +1090,14 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x4e, 0x40, 
 0x20, 0x80, 
 0x1f, 0x00, 
-// 0xa9, U-00a9, ©
+// 0xa9, U-00a9, ï¿½
  // Offset: 0x03fb width: 05 (05-00) height: 05 (09-04) xAdvance: 05 yAdvance: 00 
 0x70, 
 0x10, 
 0x70, 
 0xd0, 
 0x70, 
-// 0xaa, U-00aa, ª
+// 0xaa, U-00aa, ï¿½
  // Offset: 0x0400 width: 08 (08-00) height: 06 (07-01) xAdvance: 08 yAdvance: 00 
 0x12, 
 0x36, 
@@ -1102,17 +1105,17 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x6c, 
 0x36, 
 0x12, 
-// 0xab, U-00ab, «
+// 0xab, U-00ab, ï¿½
  // Offset: 0x0406 width: 07 (07-00) height: 04 (05-01) xAdvance: 07 yAdvance: 00 
 0x7c, 
 0x04, 
 0x04, 
 0x04, 
-// 0xac, U-00ac, ¬
+// 0xac, U-00ac, ï¿½
  // Offset: 0x040a width: 04 (04-00) height: 02 (04-02) xAdvance: 04 yAdvance: 00 
 0xf0, 
 0x60, 
-// 0xad, U-00ad, ­
+// 0xad, U-00ad, ï¿½
  // Offset: 0x040c width: 11 (11-00) height: 09 (09-00) xAdvance: 11 yAdvance: 00 
 0x1f, 0x00, 
 0x20, 0x80, 
@@ -1123,17 +1126,17 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x5b, 0x40, 
 0x20, 0x80, 
 0x1f, 0x00, 
-// 0xae, U-00ae, ®
+// 0xae, U-00ae, ï¿½
  // Offset: 0x041e width: 09 (08--1) height: 02 (12-10) xAdvance: 07 yAdvance: 00 
 0x00, 0x00, 
 0x7f, 0x00, 
-// 0xaf, U-00af, ¯
+// 0xaf, U-00af, ï¿½
  // Offset: 0x0422 width: 06 (06-00) height: 04 (09-05) xAdvance: 06 yAdvance: 00 
 0x30, 
 0x48, 
 0x48, 
 0x30, 
-// 0xb0, U-00b0, °
+// 0xb0, U-00b0, ï¿½
  // Offset: 0x0426 width: 07 (07-00) height: 09 (09-00) xAdvance: 07 yAdvance: 00 
 0x00, 
 0x10, 
@@ -1144,7 +1147,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x10, 
 0x00, 
 0xfe, 
-// 0xb1, U-00b1, ±
+// 0xb1, U-00b1, ï¿½
  // Offset: 0x042f width: 05 (05-00) height: 06 (09-03) xAdvance: 05 yAdvance: 00 
 0x70, 
 0x50, 
@@ -1152,7 +1155,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x20, 
 0x60, 
 0xf8, 
-// 0xb2, U-00b2, ²
+// 0xb2, U-00b2, ï¿½
  // Offset: 0x0435 width: 05 (05-00) height: 06 (09-03) xAdvance: 05 yAdvance: 00 
 0x70, 
 0x10, 
@@ -1160,11 +1163,11 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x10, 
 0x10, 
 0x70, 
-// 0xb3, U-00b3, ³
+// 0xb3, U-00b3, ï¿½
  // Offset: 0x043b width: 04 (06-02) height: 02 (10-08) xAdvance: 08 yAdvance: 00 
 0x60, 
 0xc0, 
-// 0xb4, U-00b4, ´
+// 0xb4, U-00b4, ï¿½
  // Offset: 0x043d width: 07 (08-01) height: 10 (07--3) xAdvance: 09 yAdvance: 00 
 0xc6, 
 0xc6, 
@@ -1176,7 +1179,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc0, 
 0xc0, 
 0xc0, 
-// 0xb5, U-00b5, µ
+// 0xb5, U-00b5, ï¿½
  // Offset: 0x0447 width: 08 (08-00) height: 12 (10--2) xAdvance: 09 yAdvance: 00 
 0x3f, 
 0x7d, 
@@ -1190,17 +1193,17 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x05, 
 0x05, 
 0x05, 
-// 0xb6, U-00b6, ¶
+// 0xb6, U-00b6, ï¿½
  // Offset: 0x0453 width: 03 (03-00) height: 03 (06-03) xAdvance: 04 yAdvance: 00 
 0x60, 
 0x60, 
 0x00, 
-// 0xb7, U-00b7, ·
+// 0xb7, U-00b7, ï¿½
  // Offset: 0x0456 width: 04 (03--1) height: 03 (00--3) xAdvance: 03 yAdvance: 00 
 0x60, 
 0x30, 
 0x60, 
-// 0xb8, U-00b8, ¸
+// 0xb8, U-00b8, ï¿½
  // Offset: 0x0459 width: 04 (04-00) height: 06 (09-03) xAdvance: 05 yAdvance: 00 
 0x30, 
 0x70, 
@@ -1208,14 +1211,14 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x30, 
 0x30, 
 0x30, 
-// 0xb9, U-00b9, ¹
+// 0xb9, U-00b9, ï¿½
  // Offset: 0x045f width: 05 (05-00) height: 05 (09-04) xAdvance: 05 yAdvance: 00 
 0x70, 
 0x50, 
 0xd8, 
 0x50, 
 0x70, 
-// 0xba, U-00ba, º
+// 0xba, U-00ba, ï¿½
  // Offset: 0x0464 width: 08 (08-00) height: 06 (07-01) xAdvance: 08 yAdvance: 00 
 0x48, 
 0x6c, 
@@ -1223,7 +1226,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x36, 
 0x6c, 
 0x48, 
-// 0xbb, U-00bb, »
+// 0xbb, U-00bb, ï¿½
  // Offset: 0x046a width: 11 (11-00) height: 09 (09-00) xAdvance: 11 yAdvance: 00 
 0x31, 0x80, 
 0x71, 0x00, 
@@ -1234,7 +1237,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x0b, 0x40, 
 0x1b, 0xe0, 
 0x10, 0x40, 
-// 0xbc, U-00bc, ¼
+// 0xbc, U-00bc, ï¿½
  // Offset: 0x047c width: 11 (11-00) height: 09 (09-00) xAdvance: 11 yAdvance: 00 
 0x31, 0x80, 
 0x71, 0x00, 
@@ -1245,7 +1248,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x08, 0x80, 
 0x19, 0x80, 
 0x13, 0xe0, 
-// 0xbd, U-00bd, ½
+// 0xbd, U-00bd, ï¿½
  // Offset: 0x048e width: 11 (11-00) height: 09 (09-00) xAdvance: 11 yAdvance: 00 
 0x71, 0x80, 
 0x11, 0x00, 
@@ -1256,7 +1259,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x0b, 0x40, 
 0x1b, 0xe0, 
 0x10, 0x40, 
-// 0xbe, U-00be, ¾
+// 0xbe, U-00be, ï¿½
  // Offset: 0x04a0 width: 07 (07-00) height: 09 (07--2) xAdvance: 06 yAdvance: 00 
 0x10, 
 0x30, 
@@ -1267,7 +1270,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc0, 
 0x7c, 
 0x78, 
-// 0xbf, U-00bf, ¿
+// 0xbf, U-00bf, ï¿½
  // Offset: 0x04a9 width: 09 (09-00) height: 12 (12-00) xAdvance: 09 yAdvance: 00 
 0x18, 0x00, 
 0x0c, 0x00, 
@@ -1281,7 +1284,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x7f, 0x00, 
 0x63, 0x00, 
 0xc1, 0x80, 
-// 0xc0, U-00c0, À
+// 0xc0, U-00c0, ï¿½
  // Offset: 0x04c1 width: 09 (09-00) height: 12 (12-00) xAdvance: 09 yAdvance: 00 
 0x0c, 0x00, 
 0x18, 0x00, 
@@ -1295,7 +1298,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x7f, 0x00, 
 0x63, 0x00, 
 0xc1, 0x80, 
-// 0xc1, U-00c1, Á
+// 0xc1, U-00c1, ï¿½
  // Offset: 0x04d9 width: 09 (09-00) height: 12 (12-00) xAdvance: 09 yAdvance: 00 
 0x1e, 0x00, 
 0x12, 0x00, 
@@ -1309,7 +1312,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x7f, 0x00, 
 0x63, 0x00, 
 0xc1, 0x80, 
-// 0xc2, U-00c2, Â
+// 0xc2, U-00c2, ï¿½
  // Offset: 0x04f1 width: 09 (09-00) height: 12 (12-00) xAdvance: 09 yAdvance: 00 
 0x1b, 0x00, 
 0x36, 0x00, 
@@ -1323,7 +1326,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x7f, 0x00, 
 0x63, 0x00, 
 0xc1, 0x80, 
-// 0xc3, U-00c3, Ã
+// 0xc3, U-00c3, ï¿½
  // Offset: 0x0509 width: 09 (09-00) height: 12 (12-00) xAdvance: 09 yAdvance: 00 
 0x12, 0x00, 
 0x12, 0x00, 
@@ -1337,7 +1340,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x7f, 0x00, 
 0x63, 0x00, 
 0xc1, 0x80, 
-// 0xc4, U-00c4, Ä
+// 0xc4, U-00c4, ï¿½
  // Offset: 0x0521 width: 09 (09-00) height: 12 (12-00) xAdvance: 09 yAdvance: 00 
 0x00, 0x00, 
 0x0c, 0x00, 
@@ -1351,7 +1354,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x7f, 0x00, 
 0x63, 0x00, 
 0xc1, 0x80, 
-// 0xc5, U-00c5, Å
+// 0xc5, U-00c5, ï¿½
  // Offset: 0x0539 width: 12 (12-00) height: 09 (09-00) xAdvance: 12 yAdvance: 00 
 0x0f, 0xe0, 
 0x1f, 0xe0, 
@@ -1362,7 +1365,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x7f, 0x00, 
 0x63, 0xe0, 
 0xc3, 0xe0, 
-// 0xc6, U-00c6, Æ
+// 0xc6, U-00c6, ï¿½
  // Offset: 0x054b width: 08 (08-00) height: 12 (09--3) xAdvance: 08 yAdvance: 00 
 0x1e, 
 0x3e, 
@@ -1376,7 +1379,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x18, 
 0x0c, 
 0x18, 
-// 0xc7, U-00c7, Ç
+// 0xc7, U-00c7, ï¿½
  // Offset: 0x0557 width: 06 (07-01) height: 12 (12-00) xAdvance: 07 yAdvance: 00 
 0x30, 
 0x18, 
@@ -1390,7 +1393,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc0, 
 0xf8, 
 0xf8, 
-// 0xc8, U-00c8, È
+// 0xc8, U-00c8, ï¿½
  // Offset: 0x0563 width: 06 (07-01) height: 12 (12-00) xAdvance: 07 yAdvance: 00 
 0x18, 
 0x30, 
@@ -1404,7 +1407,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc0, 
 0xf8, 
 0xf8, 
-// 0xc9, U-00c9, É
+// 0xc9, U-00c9, ï¿½
  // Offset: 0x056f width: 06 (07-01) height: 12 (12-00) xAdvance: 07 yAdvance: 00 
 0x78, 
 0x48, 
@@ -1418,7 +1421,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc0, 
 0xf8, 
 0xf8, 
-// 0xca, U-00ca, Ê
+// 0xca, U-00ca, ï¿½
  // Offset: 0x057b width: 06 (07-01) height: 12 (12-00) xAdvance: 07 yAdvance: 00 
 0x48, 
 0x48, 
@@ -1432,7 +1435,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc0, 
 0xf8, 
 0xf8, 
-// 0xcb, U-00cb, Ë
+// 0xcb, U-00cb, ï¿½
  // Offset: 0x0587 width: 04 (04-00) height: 12 (12-00) xAdvance: 04 yAdvance: 00 
 0x60, 
 0x30, 
@@ -1446,7 +1449,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x60, 
 0x60, 
 0x60, 
-// 0xcc, U-00cc, Ì
+// 0xcc, U-00cc, ï¿½
  // Offset: 0x0593 width: 04 (05-01) height: 12 (12-00) xAdvance: 04 yAdvance: 00 
 0x60, 
 0xc0, 
@@ -1460,7 +1463,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc0, 
 0xc0, 
 0xc0, 
-// 0xcd, U-00cd, Í
+// 0xcd, U-00cd, ï¿½
  // Offset: 0x059f width: 06 (05--1) height: 12 (12-00) xAdvance: 04 yAdvance: 00 
 0x78, 
 0x48, 
@@ -1474,7 +1477,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x30, 
 0x30, 
 0x30, 
-// 0xce, U-00ce, Î
+// 0xce, U-00ce, ï¿½
  // Offset: 0x05ab width: 06 (05--1) height: 12 (12-00) xAdvance: 04 yAdvance: 00 
 0x48, 
 0x48, 
@@ -1488,7 +1491,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x30, 
 0x30, 
 0x30, 
-// 0xcf, U-00cf, Ï
+// 0xcf, U-00cf, ï¿½
  // Offset: 0x05b7 width: 10 (10-00) height: 09 (09-00) xAdvance: 10 yAdvance: 00 
 0x7e, 0x00, 
 0x7f, 0x00, 
@@ -1499,7 +1502,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x63, 0x80, 
 0x7f, 0x00, 
 0x7e, 0x00, 
-// 0xd0, U-00d0, Ğ
+// 0xd0, U-00d0, ï¿½
  // Offset: 0x05c9 width: 09 (10-01) height: 12 (12-00) xAdvance: 11 yAdvance: 00 
 0x36, 0x00, 
 0x6c, 0x00, 
@@ -1513,7 +1516,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc7, 0x80, 
 0xc7, 0x80, 
 0xc3, 0x80, 
-// 0xd1, U-00d1, Ñ
+// 0xd1, U-00d1, ï¿½
  // Offset: 0x05e1 width: 10 (10-00) height: 12 (12-00) xAdvance: 10 yAdvance: 00 
 0x0c, 0x00, 
 0x06, 0x00, 
@@ -1527,7 +1530,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x61, 0x80, 
 0x3f, 0x00, 
 0x1e, 0x00, 
-// 0xd2, U-00d2, Ò
+// 0xd2, U-00d2, ï¿½
  // Offset: 0x05f9 width: 10 (10-00) height: 12 (12-00) xAdvance: 10 yAdvance: 00 
 0x06, 0x00, 
 0x0c, 0x00, 
@@ -1541,7 +1544,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x61, 0x80, 
 0x3f, 0x00, 
 0x1e, 0x00, 
-// 0xd3, U-00d3, Ó
+// 0xd3, U-00d3, ï¿½
  // Offset: 0x0611 width: 10 (10-00) height: 12 (12-00) xAdvance: 10 yAdvance: 00 
 0x1e, 0x00, 
 0x12, 0x00, 
@@ -1555,7 +1558,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x61, 0x80, 
 0x3f, 0x00, 
 0x1e, 0x00, 
-// 0xd4, U-00d4, Ô
+// 0xd4, U-00d4, ï¿½
  // Offset: 0x0629 width: 10 (10-00) height: 12 (12-00) xAdvance: 10 yAdvance: 00 
 0x1b, 0x00, 
 0x36, 0x00, 
@@ -1569,7 +1572,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x61, 0x80, 
 0x3f, 0x00, 
 0x1e, 0x00, 
-// 0xd5, U-00d5, Õ
+// 0xd5, U-00d5, ï¿½
  // Offset: 0x0641 width: 10 (10-00) height: 12 (12-00) xAdvance: 10 yAdvance: 00 
 0x12, 0x00, 
 0x12, 0x00, 
@@ -1583,7 +1586,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x61, 0x80, 
 0x3f, 0x00, 
 0x1e, 0x00, 
-// 0xd6, U-00d6, Ö
+// 0xd6, U-00d6, ï¿½
  // Offset: 0x0659 width: 07 (07-00) height: 07 (08-01) xAdvance: 07 yAdvance: 00 
 0x00, 
 0x44, 
@@ -1592,7 +1595,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x38, 
 0x44, 
 0x00, 
-// 0xd7, U-00d7, ×
+// 0xd7, U-00d7, ï¿½
  // Offset: 0x0660 width: 10 (10-00) height: 11 (10--1) xAdvance: 10 yAdvance: 00 
 0x00, 0x00, 
 0x1f, 0x00, 
@@ -1605,7 +1608,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x3f, 0x00, 
 0x3e, 0x00, 
 0x00, 0x00, 
-// 0xd8, U-00d8, Ø
+// 0xd8, U-00d8, ï¿½
  // Offset: 0x0676 width: 08 (09-01) height: 12 (12-00) xAdvance: 10 yAdvance: 00 
 0x30, 
 0x18, 
@@ -1619,7 +1622,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc3, 
 0x7e, 
 0x3c, 
-// 0xd9, U-00d9, Ù
+// 0xd9, U-00d9, ï¿½
  // Offset: 0x0682 width: 08 (09-01) height: 12 (12-00) xAdvance: 10 yAdvance: 00 
 0x0c, 
 0x18, 
@@ -1633,7 +1636,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc3, 
 0x7e, 
 0x3c, 
-// 0xda, U-00da, Ú
+// 0xda, U-00da, ï¿½
  // Offset: 0x068e width: 08 (09-01) height: 12 (12-00) xAdvance: 10 yAdvance: 00 
 0x3c, 
 0x24, 
@@ -1647,7 +1650,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc3, 
 0x7e, 
 0x3c, 
-// 0xdb, U-00db, Û
+// 0xdb, U-00db, ï¿½
  // Offset: 0x069a width: 08 (09-01) height: 12 (12-00) xAdvance: 10 yAdvance: 00 
 0x24, 
 0x24, 
@@ -1661,7 +1664,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc3, 
 0x7e, 
 0x3c, 
-// 0xdc, U-00dc, Ü
+// 0xdc, U-00dc, ï¿½
  // Offset: 0x06a6 width: 10 (09--1) height: 12 (12-00) xAdvance: 08 yAdvance: 00 
 0x06, 0x00, 
 0x0c, 0x00, 
@@ -1675,7 +1678,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x0c, 0x00, 
 0x0c, 0x00, 
 0x0c, 0x00, 
-// 0xdd, U-00dd, İ
+// 0xdd, U-00dd, ï¿½
  // Offset: 0x06be width: 07 (08-01) height: 09 (09-00) xAdvance: 08 yAdvance: 00 
 0xc0, 
 0xf8, 
@@ -1686,7 +1689,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xf8, 
 0xc0, 
 0xc0, 
-// 0xde, U-00de, Ş
+// 0xde, U-00de, ï¿½
  // Offset: 0x06c7 width: 08 (09-01) height: 10 (10-00) xAdvance: 09 yAdvance: 00 
 0x7c, 
 0xfe, 
@@ -1698,7 +1701,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc6, 
 0xd6, 
 0xde, 
-// 0xdf, U-00df, ß
+// 0xdf, U-00df, ï¿½
  // Offset: 0x06d1 width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x30, 
 0x18, 
@@ -1710,7 +1713,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x66, 
 0x6e, 
 0x7e, 
-// 0xe0, U-00e0, à
+// 0xe0, U-00e0, ï¿½
  // Offset: 0x06db width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x0c, 
 0x18, 
@@ -1722,7 +1725,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x66, 
 0x6e, 
 0x7e, 
-// 0xe1, U-00e1, á
+// 0xe1, U-00e1, ï¿½
  // Offset: 0x06e5 width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x3c, 
 0x24, 
@@ -1734,7 +1737,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x66, 
 0x6e, 
 0x7e, 
-// 0xe2, U-00e2, â
+// 0xe2, U-00e2, ï¿½
  // Offset: 0x06ef width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x36, 
 0x6c, 
@@ -1746,7 +1749,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x66, 
 0x6e, 
 0x7e, 
-// 0xe3, U-00e3, ã
+// 0xe3, U-00e3, ï¿½
  // Offset: 0x06f9 width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x24, 
 0x24, 
@@ -1758,7 +1761,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x66, 
 0x6e, 
 0x7e, 
-// 0xe4, U-00e4, ä
+// 0xe4, U-00e4, ï¿½
  // Offset: 0x0703 width: 08 (08-00) height: 11 (11-00) xAdvance: 08 yAdvance: 00 
 0x18, 
 0x28, 
@@ -1771,7 +1774,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x66, 
 0x6e, 
 0x7e, 
-// 0xe5, U-00e5, å
+// 0xe5, U-00e5, ï¿½
  // Offset: 0x070e width: 12 (12-00) height: 07 (07-00) xAdvance: 12 yAdvance: 00 
 0x3d, 0xc0, 
 0x2f, 0x60, 
@@ -1780,7 +1783,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x66, 0x00, 
 0x6f, 0x60, 
 0x79, 0xe0, 
-// 0xe6, U-00e6, æ
+// 0xe6, U-00e6, ï¿½
  // Offset: 0x071c width: 07 (07-00) height: 10 (07--3) xAdvance: 07 yAdvance: 00 
 0x3c, 
 0x7c, 
@@ -1792,7 +1795,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x30, 
 0x18, 
 0x30, 
-// 0xe7, U-00e7, ç
+// 0xe7, U-00e7, ï¿½
  // Offset: 0x0726 width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x30, 
 0x18, 
@@ -1804,7 +1807,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x60, 
 0x76, 
 0x3e, 
-// 0xe8, U-00e8, è
+// 0xe8, U-00e8, ï¿½
  // Offset: 0x0730 width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x0c, 
 0x18, 
@@ -1816,7 +1819,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x60, 
 0x76, 
 0x3e, 
-// 0xe9, U-00e9, é
+// 0xe9, U-00e9, ï¿½
  // Offset: 0x073a width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x3c, 
 0x24, 
@@ -1828,7 +1831,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x60, 
 0x76, 
 0x3e, 
-// 0xea, U-00ea, ê
+// 0xea, U-00ea, ï¿½
  // Offset: 0x0744 width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x24, 
 0x24, 
@@ -1840,7 +1843,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x60, 
 0x76, 
 0x3e, 
-// 0xeb, U-00eb, ë
+// 0xeb, U-00eb, ï¿½
  // Offset: 0x074e width: 04 (03--1) height: 10 (10-00) xAdvance: 04 yAdvance: 00 
 0x60, 
 0x30, 
@@ -1852,7 +1855,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x30, 
 0x30, 
 0x30, 
-// 0xec, U-00ec, ì
+// 0xec, U-00ec, ï¿½
  // Offset: 0x0758 width: 04 (05-01) height: 10 (10-00) xAdvance: 04 yAdvance: 00 
 0x60, 
 0xc0, 
@@ -1864,7 +1867,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc0, 
 0xc0, 
 0xc0, 
-// 0xed, U-00ed, í
+// 0xed, U-00ed, ï¿½
  // Offset: 0x0762 width: 06 (05--1) height: 10 (10-00) xAdvance: 04 yAdvance: 00 
 0x78, 
 0x48, 
@@ -1876,7 +1879,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x30, 
 0x30, 
 0x30, 
-// 0xee, U-00ee, î
+// 0xee, U-00ee, ï¿½
  // Offset: 0x076c width: 06 (05--1) height: 10 (10-00) xAdvance: 04 yAdvance: 00 
 0x48, 
 0x48, 
@@ -1888,7 +1891,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x30, 
 0x30, 
 0x30, 
-// 0xef, U-00ef, ï
+// 0xef, U-00ef, ï¿½
  // Offset: 0x0776 width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x14, 
 0x1c, 
@@ -1900,7 +1903,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x66, 
 0x7e, 
 0x3c, 
-// 0xf0, U-00f0, ğ
+// 0xf0, U-00f0, ï¿½
  // Offset: 0x0780 width: 08 (09-01) height: 10 (10-00) xAdvance: 09 yAdvance: 00 
 0x6c, 
 0xd8, 
@@ -1912,7 +1915,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc6, 
 0xc6, 
 0xc6, 
-// 0xf1, U-00f1, ñ
+// 0xf1, U-00f1, ï¿½
  // Offset: 0x078a width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x30, 
 0x18, 
@@ -1924,7 +1927,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x66, 
 0x7e, 
 0x3c, 
-// 0xf2, U-00f2, ò
+// 0xf2, U-00f2, ï¿½
  // Offset: 0x0794 width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x0c, 
 0x18, 
@@ -1936,7 +1939,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x66, 
 0x7e, 
 0x3c, 
-// 0xf3, U-00f3, ó
+// 0xf3, U-00f3, ï¿½
  // Offset: 0x079e width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x3c, 
 0x24, 
@@ -1948,7 +1951,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x66, 
 0x7e, 
 0x3c, 
-// 0xf4, U-00f4, ô
+// 0xf4, U-00f4, ï¿½
  // Offset: 0x07a8 width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x36, 
 0x6c, 
@@ -1960,7 +1963,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x66, 
 0x7e, 
 0x3c, 
-// 0xf5, U-00f5, õ
+// 0xf5, U-00f5, ï¿½
  // Offset: 0x07b2 width: 08 (08-00) height: 10 (10-00) xAdvance: 08 yAdvance: 00 
 0x24, 
 0x24, 
@@ -1972,7 +1975,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x66, 
 0x7e, 
 0x3c, 
-// 0xf6, U-00f6, ö
+// 0xf6, U-00f6, ï¿½
  // Offset: 0x07bc width: 07 (07-00) height: 06 (07-01) xAdvance: 07 yAdvance: 00 
 0x10, 
 0x10, 
@@ -1980,7 +1983,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x00, 
 0x10, 
 0x10, 
-// 0xf7, U-00f7, ÷
+// 0xf7, U-00f7, ï¿½
  // Offset: 0x07c2 width: 08 (08-00) height: 09 (08--1) xAdvance: 08 yAdvance: 00 
 0x00, 
 0x3e, 
@@ -1991,7 +1994,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x7e, 
 0x7c, 
 0x00, 
-// 0xf8, U-00f8, ø
+// 0xf8, U-00f8, ï¿½
  // Offset: 0x07cb width: 08 (08-00) height: 10 (10-00) xAdvance: 09 yAdvance: 00 
 0x30, 
 0x18, 
@@ -2003,7 +2006,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x63, 
 0x7f, 
 0x3f, 
-// 0xf9, U-00f9, ù
+// 0xf9, U-00f9, ï¿½
  // Offset: 0x07d5 width: 08 (08-00) height: 10 (10-00) xAdvance: 09 yAdvance: 00 
 0x0c, 
 0x18, 
@@ -2015,7 +2018,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x63, 
 0x7f, 
 0x3f, 
-// 0xfa, U-00fa, ú
+// 0xfa, U-00fa, ï¿½
  // Offset: 0x07df width: 08 (08-00) height: 10 (10-00) xAdvance: 09 yAdvance: 00 
 0x3c, 
 0x24, 
@@ -2027,7 +2030,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x63, 
 0x7f, 
 0x3f, 
-// 0xfb, U-00fb, û
+// 0xfb, U-00fb, ï¿½
  // Offset: 0x07e9 width: 08 (08-00) height: 10 (10-00) xAdvance: 09 yAdvance: 00 
 0x24, 
 0x24, 
@@ -2039,7 +2042,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x63, 
 0x7f, 
 0x3f, 
-// 0xfc, U-00fc, ü
+// 0xfc, U-00fc, ï¿½
  // Offset: 0x07f3 width: 07 (07-00) height: 13 (10--3) xAdvance: 07 yAdvance: 00 
 0x18, 
 0x30, 
@@ -2054,7 +2057,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x30, 
 0x70, 
 0xe0, 
-// 0xfd, U-00fd, ı
+// 0xfd, U-00fd, ï¿½
  // Offset: 0x0800 width: 07 (08-01) height: 13 (10--3) xAdvance: 08 yAdvance: 00 
 0xc0, 
 0xc0, 
@@ -2069,7 +2072,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0xc0, 
 0xc0, 
 0xc0, 
-// 0xfe, U-00fe, ş
+// 0xfe, U-00fe, ï¿½
  // Offset: 0x080d width: 07 (07-00) height: 13 (10--3) xAdvance: 07 yAdvance: 00 
 0x24, 
 0x24, 
@@ -2084,7 +2087,7 @@ const unsigned char Open_Sans_Bold_8ptBitmaps[] PROGMEM = {
 0x30, 
 0x70, 
 0xe0, 
-// 0xff, U-00ff, ÿ
+// 0xff, U-00ff, ï¿½
 };
 
 const FontDescriptor Open_Sans_Bold_8ptDescriptors2[] PROGMEM = {
@@ -2184,132 +2187,135 @@ const FontDescriptor Open_Sans_Bold_8ptDescriptors2[] PROGMEM = {
 	{ (int8_t)0x00,	(int8_t)0x05,	(int8_t)0xfffffffe,	(int8_t)0x09,	(int8_t)0x05,	(uint16_t)0x038d,	(uint16_t)0x007d},	// U-007d, }
 	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x02,	(int8_t)0x07,	(int8_t)0x07,	(uint16_t)0x0398,	(uint16_t)0x007e},	// U-007e, ~
 	{ (int8_t)0x01,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x08,	(uint16_t)0x039d,	(uint16_t)0x007f},	// U-007f, 
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0080, €
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0081, 
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0082, ‚
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0083, ƒ
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0084, „
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0085, …
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0086, †
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0087, ‡
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0088, ˆ
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0089, ‰
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-008a, Š
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-008b, ‹
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-008c, Œ
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-008d, 
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-008e, 
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-008f, 
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0090, 
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0091, ‘
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0092, ’
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0093, “
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0094, ”
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0095, •
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0096, –
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0097, —
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0098, ˜
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0099, ™
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-009a, š
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-009b, ›
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-009c, œ
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-009d, 
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-009e, 
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-009f, Ÿ
-	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x03,	(uint16_t)0x03a6,	(uint16_t)0x00a0},	// U-00a0,  
-	{ (int8_t)0x00,	(int8_t)0x04,	(int8_t)0xfffffffe,	(int8_t)0x07,	(int8_t)0x04,	(uint16_t)0x03a6,	(uint16_t)0x00a1},	// U-00a1, ¡
-	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x07,	(uint16_t)0x03af,	(uint16_t)0x00a2},	// U-00a2, ¢
-	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x07,	(uint16_t)0x03b8,	(uint16_t)0x00a3},	// U-00a3, £
-	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x02,	(int8_t)0x08,	(int8_t)0x07,	(uint16_t)0x03c1,	(uint16_t)0x00a4},	// U-00a4, ¤
-	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x07,	(uint16_t)0x03c7,	(uint16_t)0x00a5},	// U-00a5, ¥
-	{ (int8_t)0x02,	(int8_t)0x05,	(int8_t)0xfffffffd,	(int8_t)0x0a,	(int8_t)0x07,	(uint16_t)0x03d0,	(uint16_t)0x00a6},	// U-00a6, ¦
-	{ (int8_t)0x00,	(int8_t)0x06,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x06,	(uint16_t)0x03dd,	(uint16_t)0x00a7},	// U-00a7, §
-	{ (int8_t)0x01,	(int8_t)0x07,	(int8_t)0x08,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x03e7,	(uint16_t)0x00a8},	// U-00a8, ¨
-	{ (int8_t)0x00,	(int8_t)0x0b,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x0b,	(uint16_t)0x03e9,	(uint16_t)0x00a9},	// U-00a9, ©
-	{ (int8_t)0x00,	(int8_t)0x05,	(int8_t)0x04,	(int8_t)0x09,	(int8_t)0x05,	(uint16_t)0x03fb,	(uint16_t)0x00aa},	// U-00aa, ª
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x01,	(int8_t)0x07,	(int8_t)0x08,	(uint16_t)0x0400,	(uint16_t)0x00ab},	// U-00ab, «
-	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x01,	(int8_t)0x05,	(int8_t)0x07,	(uint16_t)0x0406,	(uint16_t)0x00ac},	// U-00ac, ¬
-	{ (int8_t)0x00,	(int8_t)0x04,	(int8_t)0x02,	(int8_t)0x04,	(int8_t)0x04,	(uint16_t)0x040a,	(uint16_t)0x00ad},	// U-00ad, ­
-	{ (int8_t)0x00,	(int8_t)0x0b,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x0b,	(uint16_t)0x040c,	(uint16_t)0x00ae},	// U-00ae, ®
-	{ (int8_t)0xffffffff,	(int8_t)0x08,	(int8_t)0x0a,	(int8_t)0x0c,	(int8_t)0x07,	(uint16_t)0x041e,	(uint16_t)0x00af},	// U-00af, ¯
-	{ (int8_t)0x00,	(int8_t)0x06,	(int8_t)0x05,	(int8_t)0x09,	(int8_t)0x06,	(uint16_t)0x0422,	(uint16_t)0x00b0},	// U-00b0, °
-	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x07,	(uint16_t)0x0426,	(uint16_t)0x00b1},	// U-00b1, ±
-	{ (int8_t)0x00,	(int8_t)0x05,	(int8_t)0x03,	(int8_t)0x09,	(int8_t)0x05,	(uint16_t)0x042f,	(uint16_t)0x00b2},	// U-00b2, ²
-	{ (int8_t)0x00,	(int8_t)0x05,	(int8_t)0x03,	(int8_t)0x09,	(int8_t)0x05,	(uint16_t)0x0435,	(uint16_t)0x00b3},	// U-00b3, ³
-	{ (int8_t)0x02,	(int8_t)0x06,	(int8_t)0x08,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x043b,	(uint16_t)0x00b4},	// U-00b4, ´
-	{ (int8_t)0x01,	(int8_t)0x08,	(int8_t)0xfffffffd,	(int8_t)0x07,	(int8_t)0x09,	(uint16_t)0x043d,	(uint16_t)0x00b5},	// U-00b5, µ
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0xfffffffe,	(int8_t)0x0a,	(int8_t)0x09,	(uint16_t)0x0447,	(uint16_t)0x00b6},	// U-00b6, ¶
-	{ (int8_t)0x00,	(int8_t)0x03,	(int8_t)0x03,	(int8_t)0x06,	(int8_t)0x04,	(uint16_t)0x0453,	(uint16_t)0x00b7},	// U-00b7, ·
-	{ (int8_t)0xffffffff,	(int8_t)0x03,	(int8_t)0xfffffffd,	(int8_t)0x00,	(int8_t)0x03,	(uint16_t)0x0456,	(uint16_t)0x00b8},	// U-00b8, ¸
-	{ (int8_t)0x00,	(int8_t)0x04,	(int8_t)0x03,	(int8_t)0x09,	(int8_t)0x05,	(uint16_t)0x0459,	(uint16_t)0x00b9},	// U-00b9, ¹
-	{ (int8_t)0x00,	(int8_t)0x05,	(int8_t)0x04,	(int8_t)0x09,	(int8_t)0x05,	(uint16_t)0x045f,	(uint16_t)0x00ba},	// U-00ba, º
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x01,	(int8_t)0x07,	(int8_t)0x08,	(uint16_t)0x0464,	(uint16_t)0x00bb},	// U-00bb, »
-	{ (int8_t)0x00,	(int8_t)0x0b,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x0b,	(uint16_t)0x046a,	(uint16_t)0x00bc},	// U-00bc, ¼
-	{ (int8_t)0x00,	(int8_t)0x0b,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x0b,	(uint16_t)0x047c,	(uint16_t)0x00bd},	// U-00bd, ½
-	{ (int8_t)0x00,	(int8_t)0x0b,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x0b,	(uint16_t)0x048e,	(uint16_t)0x00be},	// U-00be, ¾
-	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0xfffffffe,	(int8_t)0x07,	(int8_t)0x06,	(uint16_t)0x04a0,	(uint16_t)0x00bf},	// U-00bf, ¿
-	{ (int8_t)0x00,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x09,	(uint16_t)0x04a9,	(uint16_t)0x00c0},	// U-00c0, À
-	{ (int8_t)0x00,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x09,	(uint16_t)0x04c1,	(uint16_t)0x00c1},	// U-00c1, Á
-	{ (int8_t)0x00,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x09,	(uint16_t)0x04d9,	(uint16_t)0x00c2},	// U-00c2, Â
-	{ (int8_t)0x00,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x09,	(uint16_t)0x04f1,	(uint16_t)0x00c3},	// U-00c3, Ã
-	{ (int8_t)0x00,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x09,	(uint16_t)0x0509,	(uint16_t)0x00c4},	// U-00c4, Ä
-	{ (int8_t)0x00,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x09,	(uint16_t)0x0521,	(uint16_t)0x00c5},	// U-00c5, Å
-	{ (int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x0c,	(uint16_t)0x0539,	(uint16_t)0x00c6},	// U-00c6, Æ
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0xfffffffd,	(int8_t)0x09,	(int8_t)0x08,	(uint16_t)0x054b,	(uint16_t)0x00c7},	// U-00c7, Ç
-	{ (int8_t)0x01,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x07,	(uint16_t)0x0557,	(uint16_t)0x00c8},	// U-00c8, È
-	{ (int8_t)0x01,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x07,	(uint16_t)0x0563,	(uint16_t)0x00c9},	// U-00c9, É
-	{ (int8_t)0x01,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x07,	(uint16_t)0x056f,	(uint16_t)0x00ca},	// U-00ca, Ê
-	{ (int8_t)0x01,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x07,	(uint16_t)0x057b,	(uint16_t)0x00cb},	// U-00cb, Ë
-	{ (int8_t)0x00,	(int8_t)0x04,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x04,	(uint16_t)0x0587,	(uint16_t)0x00cc},	// U-00cc, Ì
-	{ (int8_t)0x01,	(int8_t)0x05,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x04,	(uint16_t)0x0593,	(uint16_t)0x00cd},	// U-00cd, Í
-	{ (int8_t)0xffffffff,	(int8_t)0x05,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x04,	(uint16_t)0x059f,	(uint16_t)0x00ce},	// U-00ce, Î
-	{ (int8_t)0xffffffff,	(int8_t)0x05,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x04,	(uint16_t)0x05ab,	(uint16_t)0x00cf},	// U-00cf, Ï
-	{ (int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x0a,	(uint16_t)0x05b7,	(uint16_t)0x00d0},	// U-00d0, Ğ
-	{ (int8_t)0x01,	(int8_t)0x0a,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0b,	(uint16_t)0x05c9,	(uint16_t)0x00d1},	// U-00d1, Ñ
-	{ (int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x05e1,	(uint16_t)0x00d2},	// U-00d2, Ò
-	{ (int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x05f9,	(uint16_t)0x00d3},	// U-00d3, Ó
-	{ (int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x0611,	(uint16_t)0x00d4},	// U-00d4, Ô
-	{ (int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x0629,	(uint16_t)0x00d5},	// U-00d5, Õ
-	{ (int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x0641,	(uint16_t)0x00d6},	// U-00d6, Ö
-	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x01,	(int8_t)0x08,	(int8_t)0x07,	(uint16_t)0x0659,	(uint16_t)0x00d7},	// U-00d7, ×
-	{ (int8_t)0x00,	(int8_t)0x0a,	(int8_t)0xffffffff,	(int8_t)0x0a,	(int8_t)0x0a,	(uint16_t)0x0660,	(uint16_t)0x00d8},	// U-00d8, Ø
-	{ (int8_t)0x01,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x0676,	(uint16_t)0x00d9},	// U-00d9, Ù
-	{ (int8_t)0x01,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x0682,	(uint16_t)0x00da},	// U-00da, Ú
-	{ (int8_t)0x01,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x068e,	(uint16_t)0x00db},	// U-00db, Û
-	{ (int8_t)0x01,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x069a,	(uint16_t)0x00dc},	// U-00dc, Ü
-	{ (int8_t)0xffffffff,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x08,	(uint16_t)0x06a6,	(uint16_t)0x00dd},	// U-00dd, İ
-	{ (int8_t)0x01,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x08,	(uint16_t)0x06be,	(uint16_t)0x00de},	// U-00de, Ş
-	{ (int8_t)0x01,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x09,	(uint16_t)0x06c7,	(uint16_t)0x00df},	// U-00df, ß
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x06d1,	(uint16_t)0x00e0},	// U-00e0, à
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x06db,	(uint16_t)0x00e1},	// U-00e1, á
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x06e5,	(uint16_t)0x00e2},	// U-00e2, â
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x06ef,	(uint16_t)0x00e3},	// U-00e3, ã
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x06f9,	(uint16_t)0x00e4},	// U-00e4, ä
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0b,	(int8_t)0x08,	(uint16_t)0x0703,	(uint16_t)0x00e5},	// U-00e5, å
-	{ (int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x00,	(int8_t)0x07,	(int8_t)0x0c,	(uint16_t)0x070e,	(uint16_t)0x00e6},	// U-00e6, æ
-	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0xfffffffd,	(int8_t)0x07,	(int8_t)0x07,	(uint16_t)0x071c,	(uint16_t)0x00e7},	// U-00e7, ç
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x0726,	(uint16_t)0x00e8},	// U-00e8, è
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x0730,	(uint16_t)0x00e9},	// U-00e9, é
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x073a,	(uint16_t)0x00ea},	// U-00ea, ê
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x0744,	(uint16_t)0x00eb},	// U-00eb, ë
-	{ (int8_t)0xffffffff,	(int8_t)0x03,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x04,	(uint16_t)0x074e,	(uint16_t)0x00ec},	// U-00ec, ì
-	{ (int8_t)0x01,	(int8_t)0x05,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x04,	(uint16_t)0x0758,	(uint16_t)0x00ed},	// U-00ed, í
-	{ (int8_t)0xffffffff,	(int8_t)0x05,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x04,	(uint16_t)0x0762,	(uint16_t)0x00ee},	// U-00ee, î
-	{ (int8_t)0xffffffff,	(int8_t)0x05,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x04,	(uint16_t)0x076c,	(uint16_t)0x00ef},	// U-00ef, ï
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x0776,	(uint16_t)0x00f0},	// U-00f0, ğ
-	{ (int8_t)0x01,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x09,	(uint16_t)0x0780,	(uint16_t)0x00f1},	// U-00f1, ñ
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x078a,	(uint16_t)0x00f2},	// U-00f2, ò
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x0794,	(uint16_t)0x00f3},	// U-00f3, ó
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x079e,	(uint16_t)0x00f4},	// U-00f4, ô
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x07a8,	(uint16_t)0x00f5},	// U-00f5, õ
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x07b2,	(uint16_t)0x00f6},	// U-00f6, ö
-	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x01,	(int8_t)0x07,	(int8_t)0x07,	(uint16_t)0x07bc,	(uint16_t)0x00f7},	// U-00f7, ÷
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0xffffffff,	(int8_t)0x08,	(int8_t)0x08,	(uint16_t)0x07c2,	(uint16_t)0x00f8},	// U-00f8, ø
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x09,	(uint16_t)0x07cb,	(uint16_t)0x00f9},	// U-00f9, ù
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x09,	(uint16_t)0x07d5,	(uint16_t)0x00fa},	// U-00fa, ú
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x09,	(uint16_t)0x07df,	(uint16_t)0x00fb},	// U-00fb, û
-	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x09,	(uint16_t)0x07e9,	(uint16_t)0x00fc},	// U-00fc, ü
-	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0xfffffffd,	(int8_t)0x0a,	(int8_t)0x07,	(uint16_t)0x07f3,	(uint16_t)0x00fd},	// U-00fd, ı
-	{ (int8_t)0x01,	(int8_t)0x08,	(int8_t)0xfffffffd,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x0800,	(uint16_t)0x00fe},	// U-00fe, ş
-	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0xfffffffd,	(int8_t)0x0a,	(int8_t)0x07,	(uint16_t)0x080d,	(uint16_t)0x00ff}	// U-00ff, ÿ
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0080, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0081, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0082, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0083, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0084, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0085, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0086, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0087, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0088, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0089, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-008a, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-008b, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-008c, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-008d, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-008e, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-008f, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0090, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0091, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0092, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0093, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0094, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0095, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0096, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0097, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0098, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-0099, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-009a, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-009b, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-009c, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-009d, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-009e, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(uint16_t)0x0000,	(uint16_t)0x0000},	// U-009f, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x00,	(int8_t)0x03,	(uint16_t)0x03a6,	(uint16_t)0x00a0},	// U-00a0, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x04,	(int8_t)0xfffffffe,	(int8_t)0x07,	(int8_t)0x04,	(uint16_t)0x03a6,	(uint16_t)0x00a1},	// U-00a1, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x07,	(uint16_t)0x03af,	(uint16_t)0x00a2},	// U-00a2, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x07,	(uint16_t)0x03b8,	(uint16_t)0x00a3},	// U-00a3, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x02,	(int8_t)0x08,	(int8_t)0x07,	(uint16_t)0x03c1,	(uint16_t)0x00a4},	// U-00a4, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x07,	(uint16_t)0x03c7,	(uint16_t)0x00a5},	// U-00a5, ï¿½
+	{ (int8_t)0x02,	(int8_t)0x05,	(int8_t)0xfffffffd,	(int8_t)0x0a,	(int8_t)0x07,	(uint16_t)0x03d0,	(uint16_t)0x00a6},	// U-00a6, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x06,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x06,	(uint16_t)0x03dd,	(uint16_t)0x00a7},	// U-00a7, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x07,	(int8_t)0x08,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x03e7,	(uint16_t)0x00a8},	// U-00a8, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x0b,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x0b,	(uint16_t)0x03e9,	(uint16_t)0x00a9},	// U-00a9, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x05,	(int8_t)0x04,	(int8_t)0x09,	(int8_t)0x05,	(uint16_t)0x03fb,	(uint16_t)0x00aa},	// U-00aa, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x01,	(int8_t)0x07,	(int8_t)0x08,	(uint16_t)0x0400,	(uint16_t)0x00ab},	// U-00ab, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x01,	(int8_t)0x05,	(int8_t)0x07,	(uint16_t)0x0406,	(uint16_t)0x00ac},	// U-00ac, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x04,	(int8_t)0x02,	(int8_t)0x04,	(int8_t)0x04,	(uint16_t)0x040a,	(uint16_t)0x00ad},	// U-00ad, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x0b,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x0b,	(uint16_t)0x040c,	(uint16_t)0x00ae},	// U-00ae, ï¿½
+	{ (int8_t)0xffffffff,	(int8_t)0x08,	(int8_t)0x0a,	(int8_t)0x0c,	(int8_t)0x07,	(uint16_t)0x041e,	(uint16_t)0x00af},	// U-00af, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x06,	(int8_t)0x05,	(int8_t)0x09,	(int8_t)0x06,	(uint16_t)0x0422,	(uint16_t)0x00b0},	// U-00b0, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x07,	(uint16_t)0x0426,	(uint16_t)0x00b1},	// U-00b1, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x05,	(int8_t)0x03,	(int8_t)0x09,	(int8_t)0x05,	(uint16_t)0x042f,	(uint16_t)0x00b2},	// U-00b2, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x05,	(int8_t)0x03,	(int8_t)0x09,	(int8_t)0x05,	(uint16_t)0x0435,	(uint16_t)0x00b3},	// U-00b3, ï¿½
+	{ (int8_t)0x02,	(int8_t)0x06,	(int8_t)0x08,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x043b,	(uint16_t)0x00b4},	// U-00b4, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x08,	(int8_t)0xfffffffd,	(int8_t)0x07,	(int8_t)0x09,	(uint16_t)0x043d,	(uint16_t)0x00b5},	// U-00b5, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0xfffffffe,	(int8_t)0x0a,	(int8_t)0x09,	(uint16_t)0x0447,	(uint16_t)0x00b6},	// U-00b6, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x03,	(int8_t)0x03,	(int8_t)0x06,	(int8_t)0x04,	(uint16_t)0x0453,	(uint16_t)0x00b7},	// U-00b7, ï¿½
+	{ (int8_t)0xffffffff,	(int8_t)0x03,	(int8_t)0xfffffffd,	(int8_t)0x00,	(int8_t)0x03,	(uint16_t)0x0456,	(uint16_t)0x00b8},	// U-00b8, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x04,	(int8_t)0x03,	(int8_t)0x09,	(int8_t)0x05,	(uint16_t)0x0459,	(uint16_t)0x00b9},	// U-00b9, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x05,	(int8_t)0x04,	(int8_t)0x09,	(int8_t)0x05,	(uint16_t)0x045f,	(uint16_t)0x00ba},	// U-00ba, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x01,	(int8_t)0x07,	(int8_t)0x08,	(uint16_t)0x0464,	(uint16_t)0x00bb},	// U-00bb, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x0b,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x0b,	(uint16_t)0x046a,	(uint16_t)0x00bc},	// U-00bc, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x0b,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x0b,	(uint16_t)0x047c,	(uint16_t)0x00bd},	// U-00bd, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x0b,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x0b,	(uint16_t)0x048e,	(uint16_t)0x00be},	// U-00be, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0xfffffffe,	(int8_t)0x07,	(int8_t)0x06,	(uint16_t)0x04a0,	(uint16_t)0x00bf},	// U-00bf, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x09,	(uint16_t)0x04a9,	(uint16_t)0x00c0},	// U-00c0, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x09,	(uint16_t)0x04c1,	(uint16_t)0x00c1},	// U-00c1, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x09,	(uint16_t)0x04d9,	(uint16_t)0x00c2},	// U-00c2, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x09,	(uint16_t)0x04f1,	(uint16_t)0x00c3},	// U-00c3, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x09,	(uint16_t)0x0509,	(uint16_t)0x00c4},	// U-00c4, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x09,	(uint16_t)0x0521,	(uint16_t)0x00c5},	// U-00c5, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x0c,	(uint16_t)0x0539,	(uint16_t)0x00c6},	// U-00c6, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0xfffffffd,	(int8_t)0x09,	(int8_t)0x08,	(uint16_t)0x054b,	(uint16_t)0x00c7},	// U-00c7, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x07,	(uint16_t)0x0557,	(uint16_t)0x00c8},	// U-00c8, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x07,	(uint16_t)0x0563,	(uint16_t)0x00c9},	// U-00c9, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x07,	(uint16_t)0x056f,	(uint16_t)0x00ca},	// U-00ca, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x07,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x07,	(uint16_t)0x057b,	(uint16_t)0x00cb},	// U-00cb, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x04,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x04,	(uint16_t)0x0587,	(uint16_t)0x00cc},	// U-00cc, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x05,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x04,	(uint16_t)0x0593,	(uint16_t)0x00cd},	// U-00cd, ï¿½
+	{ (int8_t)0xffffffff,	(int8_t)0x05,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x04,	(uint16_t)0x059f,	(uint16_t)0x00ce},	// U-00ce, ï¿½
+	{ (int8_t)0xffffffff,	(int8_t)0x05,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x04,	(uint16_t)0x05ab,	(uint16_t)0x00cf},	// U-00cf, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x0a,	(uint16_t)0x05b7,	(uint16_t)0x00d0},	// U-00d0, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x0a,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0b,	(uint16_t)0x05c9,	(uint16_t)0x00d1},	// U-00d1, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x05e1,	(uint16_t)0x00d2},	// U-00d2, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x05f9,	(uint16_t)0x00d3},	// U-00d3, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x0611,	(uint16_t)0x00d4},	// U-00d4, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x0629,	(uint16_t)0x00d5},	// U-00d5, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x0641,	(uint16_t)0x00d6},	// U-00d6, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x01,	(int8_t)0x08,	(int8_t)0x07,	(uint16_t)0x0659,	(uint16_t)0x00d7},	// U-00d7, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x0a,	(int8_t)0xffffffff,	(int8_t)0x0a,	(int8_t)0x0a,	(uint16_t)0x0660,	(uint16_t)0x00d8},	// U-00d8, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x0676,	(uint16_t)0x00d9},	// U-00d9, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x0682,	(uint16_t)0x00da},	// U-00da, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x068e,	(uint16_t)0x00db},	// U-00db, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x0a,	(uint16_t)0x069a,	(uint16_t)0x00dc},	// U-00dc, ï¿½
+	{ (int8_t)0xffffffff,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x08,	(uint16_t)0x06a6,	(uint16_t)0x00dd},	// U-00dd, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x09,	(int8_t)0x08,	(uint16_t)0x06be,	(uint16_t)0x00de},	// U-00de, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x09,	(uint16_t)0x06c7,	(uint16_t)0x00df},	// U-00df, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x06d1,	(uint16_t)0x00e0},	// U-00e0, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x06db,	(uint16_t)0x00e1},	// U-00e1, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x06e5,	(uint16_t)0x00e2},	// U-00e2, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x06ef,	(uint16_t)0x00e3},	// U-00e3, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x06f9,	(uint16_t)0x00e4},	// U-00e4, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0b,	(int8_t)0x08,	(uint16_t)0x0703,	(uint16_t)0x00e5},	// U-00e5, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x0c,	(int8_t)0x00,	(int8_t)0x07,	(int8_t)0x0c,	(uint16_t)0x070e,	(uint16_t)0x00e6},	// U-00e6, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0xfffffffd,	(int8_t)0x07,	(int8_t)0x07,	(uint16_t)0x071c,	(uint16_t)0x00e7},	// U-00e7, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x0726,	(uint16_t)0x00e8},	// U-00e8, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x0730,	(uint16_t)0x00e9},	// U-00e9, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x073a,	(uint16_t)0x00ea},	// U-00ea, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x0744,	(uint16_t)0x00eb},	// U-00eb, ï¿½
+	{ (int8_t)0xffffffff,	(int8_t)0x03,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x04,	(uint16_t)0x074e,	(uint16_t)0x00ec},	// U-00ec, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x05,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x04,	(uint16_t)0x0758,	(uint16_t)0x00ed},	// U-00ed, ï¿½
+	{ (int8_t)0xffffffff,	(int8_t)0x05,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x04,	(uint16_t)0x0762,	(uint16_t)0x00ee},	// U-00ee, ï¿½
+	{ (int8_t)0xffffffff,	(int8_t)0x05,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x04,	(uint16_t)0x076c,	(uint16_t)0x00ef},	// U-00ef, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x0776,	(uint16_t)0x00f0},	// U-00f0, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x09,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x09,	(uint16_t)0x0780,	(uint16_t)0x00f1},	// U-00f1, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x078a,	(uint16_t)0x00f2},	// U-00f2, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x0794,	(uint16_t)0x00f3},	// U-00f3, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x079e,	(uint16_t)0x00f4},	// U-00f4, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x07a8,	(uint16_t)0x00f5},	// U-00f5, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x07b2,	(uint16_t)0x00f6},	// U-00f6, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0x01,	(int8_t)0x07,	(int8_t)0x07,	(uint16_t)0x07bc,	(uint16_t)0x00f7},	// U-00f7, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0xffffffff,	(int8_t)0x08,	(int8_t)0x08,	(uint16_t)0x07c2,	(uint16_t)0x00f8},	// U-00f8, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x09,	(uint16_t)0x07cb,	(uint16_t)0x00f9},	// U-00f9, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x09,	(uint16_t)0x07d5,	(uint16_t)0x00fa},	// U-00fa, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x09,	(uint16_t)0x07df,	(uint16_t)0x00fb},	// U-00fb, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x08,	(int8_t)0x00,	(int8_t)0x0a,	(int8_t)0x09,	(uint16_t)0x07e9,	(uint16_t)0x00fc},	// U-00fc, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0xfffffffd,	(int8_t)0x0a,	(int8_t)0x07,	(uint16_t)0x07f3,	(uint16_t)0x00fd},	// U-00fd, ï¿½
+	{ (int8_t)0x01,	(int8_t)0x08,	(int8_t)0xfffffffd,	(int8_t)0x0a,	(int8_t)0x08,	(uint16_t)0x0800,	(uint16_t)0x00fe},	// U-00fe, ï¿½
+	{ (int8_t)0x00,	(int8_t)0x07,	(int8_t)0xfffffffd,	(int8_t)0x0a,	(int8_t)0x07,	(uint16_t)0x080d,	(uint16_t)0x00ff}	// U-00ff, ï¿½
 };
+
+#endif
+

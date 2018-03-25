@@ -11,6 +11,12 @@
 #ifndef _fonts_h
 #define _fonts_h
 
+#if defined(ESP8266) || defined(ESP32)
+#include <pgmspace.h>
+#else
+#include <avr/pgmspace.h>
+#endif
+
 typedef struct _fontProperties {
   uint8_t      height;
   uint8_t      ascender;
@@ -65,9 +71,9 @@ extern const FontDescriptor Open_Sans_Bold_10ptDescriptors2[];
 */
 #include "./Fonts/Open_Sans_Bold_12pt.h"
 #define OPENSANSBOLD_12 2
-extern const fontProperties Open_Sans_Bold_12ptProperties;
-extern const unsigned char Open_Sans_Bold_12ptBitmaps[];
-extern const FontDescriptor Open_Sans_Bold_12ptDescriptors2[];
+//extern const fontProperties Open_Sans_Bold_12ptProperties;
+//extern const unsigned char Open_Sans_Bold_12ptBitmaps[];
+//extern const FontDescriptor Open_Sans_Bold_12ptDescriptors2[];
 
 #include "./Fonts/Open_Sans_Bold_14pt.h"
 #define OPENSANSBOLD_14 3
@@ -83,9 +89,9 @@ extern const FontDescriptor Open_Sans_Bold_16ptDescriptors2[];
 
 //#include "./Fonts/Open_Sans_Bold_18pt.h"
 //#define OPENSANSBOLD_18 5
-//extern const fontProperties Open_Sans_Bold_18ptProperties;
-//extern const unsigned char Open_Sans_Bold_18ptBitmaps[];
-//extern const FontDescriptor Open_Sans_Bold_18ptDescriptors2[];
+extern const fontProperties Open_Sans_Bold_18ptProperties;
+extern const unsigned char Open_Sans_Bold_18ptBitmaps[];
+extern const FontDescriptor Open_Sans_Bold_18ptDescriptors2[];
 
 #include "./Fonts/Open_Sans_Bold_20pt.h"
 #define OPENSANSBOLD_20 6
